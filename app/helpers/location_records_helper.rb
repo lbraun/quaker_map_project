@@ -1,0 +1,2 @@
+module LocationRecordsHelper
+end
