@@ -1,3 +1,11 @@
 <h1>Quaker Map Project</h1>
 
-
+<%=
+  content_tag "div",
+    id: "welcome_map",
+    data: {
+      locations: LocationRecord.welcome_map_data
+    } do
+%>
+  Loading map...
+<% end %>

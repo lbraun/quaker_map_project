@@ -13,3 +13,5 @@
  *= require_tree .
  *= require_self
  */
+
+#welcome_map { height: 500px; }
