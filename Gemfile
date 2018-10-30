@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Add other gems here in alphabetical order
+gem 'bootstrap'
 gem 'jquery-rails'
 
 group :development, :test do

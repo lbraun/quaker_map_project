@@ -1,11 +1,20 @@
-<h1>Quaker Map Project</h1>
+<div class="container">
+  <h2>Quaker Map Project</h2>
 
-<%=
-  content_tag "div",
-    id: "welcome_map",
-    data: {
-      locations: LocationRecord.welcome_map_data
-    } do
-%>
-  Loading map...
-<% end %>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Mapping Quakers and Quaker values</h1>
+      <p class="lead">We share other people's great work and create our own content regularly. Reader requests welcome!</p>
+    </div>
+  </div>
+
+  <%=
+    content_tag "div",
+      id: "welcome_map",
+      data: {
+        locations: LocationRecord.welcome_map_data
+      } do
+  %>
+    Loading map...
+  <% end %>
+</div>
